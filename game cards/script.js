@@ -194,6 +194,10 @@ headCoach.textContent=coachName;
 
 
  const setPlayerCards = (arr=players) => {
- }
+// innerHTML 
+map()+=playerCards.innerHTML;
 
 
+
+
+}
