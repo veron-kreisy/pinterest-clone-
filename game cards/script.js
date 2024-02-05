@@ -178,11 +178,22 @@ nickname: null
 
 };
 Object.freeze(myFavoriteFootballTeam);
-// accasing variables using dot notaion
-const sport = myFavoriteFootballTeam.sport;
-const team= myFavoriteFootballTeam.team;
+// accasing variables using dot notation
 
-// comments
+// destructuring  objects
+const { team, sport,year,players } = myFavoriteFootballTeam;
 
-// sick bustards
+const{coachName}=myFavoriteFootballTeam.headCoach;
+typeOfSport.textContent = sport;
+teamName.textContent = team;
+worldCupYear.textContent=year;
+headCoach.textContent=coachName;
+// building functions
+// function parameters without args
+
+
+
+ const setPlayerCards = (arr=players) => {
+ }
+
 
