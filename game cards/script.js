@@ -194,9 +194,9 @@ headCoach.textContent=coachName;
 
 
  const setPlayerCards = (arr=players) => {
-  const playerCardsHTML = arr.map
+ 
+}                                                              
+    
 
 
-
-
-}
+// start training
